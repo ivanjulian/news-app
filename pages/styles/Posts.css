@@ -1,0 +1,11 @@
+.posts-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.posts-text{
+  color: rgb(88, 88, 88);
+  text-align: center;
+}

@@ -1,0 +1,16 @@
+.home-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+}
+
+.home-title{
+  text-align: center;
+  color: rgb(88, 88, 88);
+}
+
+.home-text{
+  text-align: center;
+}

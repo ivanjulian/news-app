@@ -1,0 +1,37 @@
+body{
+  margin: 0;
+}
+
+#__next-prerender-indicator {
+  display: none;
+}
+
+a:hover{
+  text-shadow: 0px 0px 5px lightgrey;
+}
+.nav-container, .post-nav-container{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-container{
+  background-color: rgb(34, 34, 34);
+}
+
+.post-nav-container{
+  background-color: rgb(88, 88, 88);
+}
+
+.nav-link, .post-nav-link{
+  text-decoration: none;
+  color: white;
+  margin: 5px;
+}
+
+.nav-link{
+  font-size: 40px;
+}
+
+.post-nav-link{
+  font-size: 30px;
+}

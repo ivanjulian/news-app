@@ -4,9 +4,11 @@ import PostsThemesLayout from '../components/PostsThemesLayout'
 function Posts() {
   return (
     <>
-        <PostsThemesLayout >
-          <h3>Select one of the topics above </h3>
-        </PostsThemesLayout>
+      <PostsThemesLayout >
+        <div className="posts-container">
+          <h1 className="posts-text">Select one of the topics above </h1>
+        </div>
+      </PostsThemesLayout>
     </>
   )
 }

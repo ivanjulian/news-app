@@ -2,10 +2,10 @@ import Link from 'next/link'
 
 function PostsNavBar() {
   return (
-    <nav>
-    <Link href="/new-posts/[theme]" as={`/new-posts/bitcoin`}><a>Bitcoin</a></Link>
-    <Link href="/new-posts/[theme]" as={`/new-posts/apple`}><a>Apple</a></Link>
-    <Link href="/new-posts/[theme]" as={`/new-posts/wall-street`}><a>Wall Street</a></Link>
+    <nav className="post-nav-container">
+    <Link href="/new-posts/[theme]" as={`/new-posts/bitcoin`}><a className="post-nav-link">Bitcoin</a></Link>
+    <Link href="/new-posts/[theme]" as={`/new-posts/wall-street`}><a className="post-nav-link">Wall Street</a></Link>
+    <Link href="/new-posts/[theme]" as={`/new-posts/apple`}><a className="post-nav-link">Apple</a></Link>
   </nav>
   )
 }
