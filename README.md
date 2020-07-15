@@ -7,6 +7,6 @@
     Git: <a href="https://github.com/ivanjulian">github.com/ivanjulian</a> <br/>
     LinkedIn: <a href="https://www.linkedin.com/in/ivan-khizhnyak/">linkedin.com/in/ivan-khizhnyak</a><br/>
   </p>
-  <img src="images/1.png" width="400px"/> <br/>
-  <img src="images/w.png" width="400px"/> <br/>
+  <img src="images/1.png" width="800px"/> <br/>
+  <img src="images/2.png" width="800px"/> <br/>
 </div>
