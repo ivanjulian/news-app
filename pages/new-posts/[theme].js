@@ -7,9 +7,11 @@ import { useRouter } from 'next/router';
 function NewPosts() {
   const store = useContext(StoreContext);
   const router = useRouter();
+
   useEffect(()=>{
     store.fetchPosts(`${router.query.theme}`);
   },[router.query.theme])
+
   return useObserver(() => (
     <>
         <PostsThemesLayout>
@@ -30,9 +32,5 @@ function NewPosts() {
     </>
   ))
 }
-
-// TestPost.getInitialProps = async () => {
-
-// }
 
 export default NewPosts
