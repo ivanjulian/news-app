@@ -1,0 +1,1 @@
+export const MY_TOKEN = '6cde7c29076247bab26b5f8ad7f2c627';
